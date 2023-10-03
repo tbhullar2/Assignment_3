@@ -7,4 +7,7 @@ Usage: just learning new stuff
 
 border=("*******************")
 print(border)
+text1=("PIXELL RIVER FINANCIAL")
+bank_name=text1.center(17)
+print(bank_name)
 
