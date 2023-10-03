@@ -11,3 +11,7 @@ text1=("PIXELL RIVER FINANCIAL")
 bank_name=text1.center(17)
 print(bank_name)
 
+text2=("ATM SIMULATOR")
+ATM=text2.center(17)
+print(ATM)
+
