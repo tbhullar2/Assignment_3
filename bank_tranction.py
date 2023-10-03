@@ -5,13 +5,11 @@ Date: 27/09/2023
 Usage: just learning new stuff
 """
 
-border=("*******************")
-print(border)
-text1=("PIXELL RIVER FINANCIAL")
-bank_name=text1.center(17)
-print(bank_name)
+line1=("PIXELL RIVER FINANCIAL")
+name_of_bank=line1.center(17)
+print(name_of_bank)
 
-text2=("ATM SIMULATOR")
-ATM=text2.center(17)
+line2=("ATM SIMULATOR")
+ATM=line2.center(17)
 print(ATM)
 
