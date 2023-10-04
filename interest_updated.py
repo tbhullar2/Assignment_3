@@ -37,7 +37,7 @@ import csv
 from datetime import datetime
 # Define the filename
 current_date = datetime.now().strftime("%Y-%m-%d")
-initials = "JS"  # Replace with your initials
+initials = "TSB"  # Replace with your initials
 filename = f"{current_date}-{initials}.csv"
 # Open and write to the CSV file
 with open(filename, 'w', newline='') as csv_file:
@@ -58,5 +58,40 @@ with open(filename, 'r') as csv_file:
 # Verify the correct (updated) data displays
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
