@@ -53,7 +53,7 @@ with open(filename, 'w', newline='') as csv_file:
 with open(filename, 'r') as csv_file:
     reader = csv.DictReader(csv_file)
     for row in reader:
-        print(row)
+        print(row
 
 # Verify the correct (updated) data displays
 
