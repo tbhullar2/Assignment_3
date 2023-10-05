@@ -39,7 +39,7 @@ original_string = "To Quit: Q"
 centered_string = original_string.center(width)
 print(centered_string) 
 
-print("**********************************************")
+print("*", 40 )
 list = ["D" , "W" , "Q"]
 user_selection = input ("list:").upper()
 deposit_amount = float(input("Enter transaction amount: $"))
@@ -50,3 +50,13 @@ import os
 from time import sleep
 sleep(3)
 os.system('cls' if os.name == 'nt' else 'clear')
+
+# Starting loops
+for _ in range(20):
+    print("PIXELL RIVER FINANCIAL")           #FALSE
+    print("ATM Simulator")                    #FALSE
+    print("User bank balance is: $")          #FALSE
+    print("Deposit: D")                       #FALSE
+    print("Withdraw: W")                      #FALSE
+    print("To Quit: Q")                       #TRUE
+
